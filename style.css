@@ -85,7 +85,7 @@ section{
 .home-image {
     margin: 3rem;
     border: 2px var(--main-color) solid;
-    border-radius: 50%;
+    border-radius: 5%;
     max-width: 50%;
 }
 .home-content {
