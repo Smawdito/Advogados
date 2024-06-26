@@ -221,19 +221,19 @@ section{
     font-size: 3rem;
     color: var(--main-color);
 }
-.especialidades{
+.servicos{
     background-color: var(--bg-color);
 }
-.especialidades h2{
+.servicos h2{
     margin-bottom: 10rem;
 }
-.especialidades-container{
+.servicos-container{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     margin-top: 8rem;
     gap: 2rem;
 }
-.especialidades-container .especialidades-box{
+.servicos-container .servicos-box{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -246,20 +246,20 @@ section{
     cursor: pointer;
     transition: 0.4s ease;
 }
-.especialidades-container .especialidades-box:hover{
+.servicos-container .servicos-box:hover{
     border-color: var(--main-color);
     transform: scale(1.02);
     background-color: white;
     color: black;
 }
-.especialidades-box i{
+.servicos-box i{
     font-size: 7rem;
     color: var(--main-color);
 }
-.especialidades-box h3{
+.servicos-box h3{
     font-size: 2.6rem;
 }
-.especialidades-box p{
+.servicos-box p{
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
 }
@@ -397,7 +397,7 @@ section{
     html{
         font-size: 55%;
     }
-    .especialidades-container{
+    .servicos-container{
         padding-bottom: 7rem;
         grid-template-columns: repeat(1,1fr);
         margin: 0 5rem;
@@ -455,13 +455,13 @@ section{
     .equipe h2{
         margin-bottom: 3rem;
     }
-    .especialidades h2{
+    .servicos h2{
         margin-bottom: 3rem;
     }
     .equipe-container{
         grid-template-columns: repeat(1,1fr);
     }
-    .especialidades-container{
+    .servicos-container{
         grid-template-columns: repeat(2,1fr);
     }
 }
