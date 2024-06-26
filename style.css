@@ -504,26 +504,23 @@ section{
         grid-template-columns: repeat(1, 1fr); /* Coloca os servicos-box um abaixo do outro */
         gap: 2rem; /* Espaçamento entre os servicos-box */
     }
-}
 
-@media(max-width: 540px) {
-    .home-content h3 {
-        font-size: 1.8rem; /* Ajusta o tamanho da fonte */
+    /* Estilos para a seção "Sobre Nós" */
+    .about-content {
+        text-align: center; /* Centraliza o texto */
+        margin-left: 0; /* Remove a margem à esquerda */
+        padding: 2rem 3%; /* Ajusta o padding */
     }
 
-    .home-content h1 {
-        font-size: 3rem; /* Ajusta o tamanho da fonte */
+    .about-content h2 {
+        font-size: 2.4rem; /* Ajusta o tamanho da fonte */
     }
 
-    .home-content p {
-        font-size: 1.4rem; /* Ajusta o tamanho da fonte */
+    .about-content p {
+        font-size: 1.6rem; /* Ajusta o tamanho da fonte */
+        margin: 1.5rem 0; /* Ajusta as margens */
         line-height: 1.6; /* Aumenta o espaçamento entre as linhas */
         letter-spacing: 0.05rem; /* Ajusta o espaçamento entre as letras */
         max-width: 100%; /* Limita a largura máxima do texto */
-    }
-
-    .home-content .btn {
-        font-size: 1.2rem; /* Ajusta o tamanho da fonte do botão */
-        padding: 0.6rem 1.8rem; /* Ajusta o padding do botão */
     }
 }
