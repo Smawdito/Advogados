@@ -70,14 +70,28 @@ section{
     min-height: 100vh;
     padding: 10rem 9% 10rem;
 }
-.home{
-    display: flex;
-    justify-content: right;
-    text-align: left;
+.home {
+    display: flex; /* Usando flexbox para alinhar itens em linha */
+    justify-content: center; /* Alinha os itens ao início (esquerda) */
     align-items: center;
     gap: 8rem;
-    background: url(assets/background6.jpg)center no-repeat;
+    background: black center no-repeat;
     background-size: cover;
+}
+.home-container{
+    display: flex;
+    justify-content: center;
+}
+.home-image {
+    margin: 3rem;
+    border: 2px var(--main-color) solid;
+    border-radius: 50%;
+}
+.home-content {
+    flex: 1; /* Ocupa o espaço restante */
+    text-align: left; /* Alinha o texto à esquerda */
+    max-width: 50%; /* Define a largura máxima para evitar que ocupe toda a largura */
+    margin-left: 0;
 }
 .home-content h3{
     font-size: 3.2rem;
@@ -93,9 +107,6 @@ section{
     font-weight: 500;
     max-width: 750px;
     margin: 3rem 0;
-}
-.home-content {
-    margin-left: 25%;
 }
 .btn{
     display: inline-block;
@@ -473,7 +484,10 @@ section{
         padding: 2rem 3%; /* Ajusta o padding para garantir que o conteúdo fique dentro dos limites */
         background-image: none; /* Remove a imagem de fundo */
     }
-
+    .home-container {
+    flex-direction: column;
+    align-items: center;
+    }
     .home-content {
         text-align: center; /* Centraliza o texto */
         margin-left: 0; /* Remove a margem à esquerda */
