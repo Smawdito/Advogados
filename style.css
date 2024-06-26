@@ -462,6 +462,8 @@ section{
     .home-content h1{
         font-size: 8rem;
         color: var(--main-color);
+        display: flex;
+        justify-content: flex-end;
     }
     .about-content{
         margin: 1rem 4rem;
@@ -488,10 +490,12 @@ section{
         background-image: none; /* Remove a imagem de fundo */
     }
     .home-container {
+        margin-top: 8%;
     flex-direction: column;
     align-items: center;
     }
     .home-content {
+        max-width: 75%;
         text-align: center; /* Centraliza o texto */
         margin-left: 0; /* Remove a margem à esquerda */
     }
@@ -502,7 +506,7 @@ section{
 
     .home-content h1 {
         display: flex;
-        flex-direction: column;
+        justify-content: center;
         font-size: 4rem; /* Ajusta o tamanho da fonte */
     }
 
