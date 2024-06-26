@@ -468,6 +468,7 @@ section{
 
 @media(max-width: 768px) {
     .home {
+        background: none;
         background-color: black; /* Define o fundo como preto */
         padding: 2rem 3%; /* Ajusta o padding para garantir que o conteúdo fique dentro dos limites */
         background-image: none; /* Remove a imagem de fundo */
@@ -489,6 +490,9 @@ section{
     .home-content p {
         font-size: 1.6rem; /* Ajusta o tamanho da fonte */
         margin: 1.5rem 0; /* Ajusta as margens */
+        line-height: 1.6; /* Aumenta o espaçamento entre as linhas */
+        letter-spacing: 0.05rem; /* Ajusta o espaçamento entre as letras */
+        max-width: 100%; /* Limita a largura máxima do texto */
     }
 
     .btn {
@@ -513,6 +517,9 @@ section{
 
     .home-content p {
         font-size: 1.4rem; /* Ajusta o tamanho da fonte */
+        line-height: 1.6; /* Aumenta o espaçamento entre as linhas */
+        letter-spacing: 0.05rem; /* Ajusta o espaçamento entre as letras */
+        max-width: 100%; /* Limita a largura máxima do texto */
     }
 
     .home-content .btn {
