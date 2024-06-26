@@ -305,6 +305,37 @@ section{
 .contact form .btn{
     margin-top: 2rem;
 }
+
+.contact form .input-box select {
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background: var(--bg-color);
+    border-radius: 0.8rem;
+    border: 2px solid var(--main-color);
+    margin: 1rem 0;
+    appearance: none; /* Remove a aparencia padrao do dropdown*/
+    cursor: pointer;
+}
+.contact form .input-box select:hover,
+.contact form .input-box select:focus {
+    border-color: var(--main-color); /* Mudança da cor da borda ao passar o mouse ou focar */
+}
+
+#message{
+    display: none;
+    margin: 20px;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background: var(--bg-color);
+    border-radius: 0.8rem;
+    border: 2px solid var(--main-color);
+    text-align: center;
+    font-weight: bold;
+}
+
 .footer{
     position: relative;
     bottom: 0;
