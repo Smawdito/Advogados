@@ -466,7 +466,7 @@ section{
     }
 }
 
-@media(max-width: 540px) {
+@media(max-width: 768px) {
     .home {
         background-color: black; /* Define o fundo como preto */
         padding: 2rem 3%; /* Ajusta o padding para garantir que o conteúdo fique dentro dos limites */
