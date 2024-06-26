@@ -509,6 +509,7 @@ section{
     .about-content {
         text-align: center; /* Centraliza o texto */
         margin-left: 0; /* Remove a margem à esquerda */
+        margin-right: 0; /* Remove a margem à direita */
         padding: 2rem 3%; /* Ajusta o padding */
     }
 
