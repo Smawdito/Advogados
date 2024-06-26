@@ -465,3 +465,20 @@ section{
         grid-template-columns: repeat(2,1fr);
     }
 }
+
+@media(max-width: 540px) {
+    .home {
+        background-color: black; /* Define o fundo como preto */
+    }
+
+    .home-content {
+        text-align: center; /* Centraliza o texto */
+        font-size: 2rem; /* Ajusta o tamanho da fonte */
+        line-height: 1.6; /* Ajusta o espaçamento entre linhas */
+    }
+
+    .servicos-container {
+        grid-template-columns: repeat(1, 1fr); /* Coloca os servicos-box um abaixo do outro */
+        gap: 2rem; /* Espaçamento entre os servicos-box */
+    }
+}
